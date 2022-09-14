@@ -1,0 +1,509 @@
+/*reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: verdana,arial,helvetica,sans-serif;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	width: 100%;
+	min-width: 840px;
+	background-color: #585a5b;
+}
+
+#logobox {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+#logo {
+	width: 60px;
+	height: 60px;
+}
+
+#maintit {
+	color: #bdac8e;
+	font-size: 60px;
+	font-weight: 900;
+	margin-top: -60px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#secondtit {
+	color: #efefef;
+	font-size: 30px;
+	font-weight: 100;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+#legend {
+	color: #cfcfcf;
+	font-size: 14px;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#mainmenu {
+	background-color: #dcdcdc;
+	height: 50px;
+	width: 100%;
+	margin: 0px auto;
+	border-bottom: 1px solid #a9a9a9;
+}
+
+#menu {
+	width: 682px;
+	height: 22px;
+	margin: 0px auto;
+	padding-top: 16px;
+}
+
+#description {
+	width: 102px;
+	height: 22px;
+	padding-bottom: 9px;
+	border-bottom: 4px solid transparent;
+}
+
+#trailer {
+	width: 58px;
+	height: 22px;
+	margin-left: 142px;
+	margin-top: -35px;
+	padding-bottom: 9px;
+	border-bottom: 4px solid transparent;
+}
+
+#aboutus {
+	width: 81px;
+	height: 22px;
+	margin-left: 240px;
+	margin-top: -35px;
+	padding-bottom: 9px;
+	cursor: pointer;
+	border-bottom: 4px solid transparent;
+}
+
+#theprojectblock {
+	width: 174px;
+	height: 22px;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9;
+	margin-top: 16px;
+	margin-left: -10px;
+	background-color: #efefef;
+	display: none;
+}
+
+#alessandraandemmablock {
+	width: 174px;
+	height: 22px;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9;
+	margin-left: -10px;
+	background-color: #efefef;
+	display: none;
+}
+
+#themeofthedocumentaryblock {
+	width: 174px;
+	height: 22px;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #a9a9a9;
+	background-color: #efefef;
+	margin-left: -10px;
+	display: none;
+}
+
+#theproject {
+	display: block;
+	width: 125px;
+	height: 12px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+#alessandraandemma {
+	display: block;
+	width: 164px;
+	height: 12px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+#themeofthedocumentary {
+	display: block;
+	width: 157px;
+	height: 12px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+#process {
+	width: 69px;
+	height: 22px;
+	margin-left: 361px;
+	margin-top: -35px;
+	padding-bottom: 9px;
+	cursor: pointer;
+	border-bottom: 4px solid transparent;
+}
+
+#theprocessandresults {
+	width: 150px;
+	height: 22px;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #a9a9a9;
+	margin-top: 16px;
+	margin-left: -10px;
+	background-color: #efefef;
+	display: none;
+}
+
+#howdidthefilmgetmade {
+	display: block;
+	width: 140px;
+	height: 12px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+#resources {
+	width: 93px;
+	height: 22px;
+	margin-left: 470px;
+	margin-top: -35px;
+	padding-bottom: 9px;
+	cursor: pointer;
+	border-bottom: 4px solid transparent;
+}
+
+#contacts {
+	width: 79px;
+	height: 22px;
+	margin-left: 603px;
+	margin-top: -35px;
+	padding-bottom: 9px;
+	cursor: pointer;
+	border-bottom: 4px solid transparent;
+}
+
+#contactus {
+	width: 164px;
+	height: 22px;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9;
+	border-bottom: 1px solid #a9a9a9;
+	margin-top: 16px;
+	margin-left: -10px;
+	background-color: #efefef;
+	display: none;
+}
+
+#contactusandrequestacopy {
+	display: block;
+	width: 154px;
+	height: 12px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+#descriptionblock {
+	width: 840px;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	background-color: #efefef;
+	padding-bottom: 30px;
+}
+
+#poster {
+	width: 300px;
+	height: 500px;
+	display: block;
+	margin-top: 0px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+#descriptiontitle {
+	width: 480px;
+	height: 46px;
+	font-size: 30px;
+	font-weight: 100;
+	margin-top: -485px;
+	margin-left: 330px;
+	border-bottom: 2px solid #bdac8e;
+	color: #2f2f2f;
+}
+
+#descriptiontext {
+	width: 480px;
+	height: 380px;
+	overflow: scroll;
+	margin-left: 330px;
+	margin-top: 30px;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+#projecttitle {
+	width: 780px;
+	height: 46px;
+	font-size: 30px;
+	font-weight: 100;
+	padding-top: 15px;
+	margin-left: 30px;
+	border-bottom: 2px solid #bdac8e;
+	color: #2f2f2f;
+}
+
+#projecttext {
+	width: 780px;
+	height: auto;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.textlink , .textlink:link , .textlink:visited {
+	font-weight: 900;
+	text-decoration: none;
+	color: #bdac8e;
+}
+
+.textlink:hover , .textlink:active {
+	font-weight: 900;
+	text-decoration: underline;
+	color: #bdac8e;
+}
+
+.textlink2 , .textlink2:link , .textlink2:visited {
+	font-weight: 100;
+	text-decoration: underline;
+	color: #2f2f2f;
+}
+
+.textlink2:hover , .textlink2:active {
+	font-weight: 100;
+	text-decoration: underline;
+	color: #bdac8e;
+}
+
+.italicquote {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.italiclight {
+	font-style: italic;
+	font-weight: 900;
+	display: block;
+	margin-top: 26px;
+}
+
+.textimage1 {
+	display: block;
+	width: 780px;
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.textimage2 {
+	display: block;
+	width: 780px;
+	height: 580px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.textimage3 {
+	display: block;
+	width: 780px;
+	height: 780px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#trailvideo {
+	margin: 0px;
+	padding: 0px;
+}
+
+#hidblock {
+	height: 0px;
+	width: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+#bigpiccontainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	min-width: 840px;
+	height: 1120px;
+	background-color: #000000;
+	opacity: 0.8;
+	display: none;
+	cursor: pointer;
+}
+
+#bigpicture {
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 840px;
+	height: 1120px;
+	background-color: #000000;
+	display: none;
+	background-image: url(../img/poster.jpg);
+	background-repeat: no-repeat;
+	background-size: 840px 1120px;
+	cursor: pointer;
+}
+
+#upperfooter {
+	width: 100%;
+	height: 410px;
+	background-color: #000000;
+	min-width: 840px;
+}
+
+#lowerfooter {
+	width: 100%;
+	height: 90px;
+	background-color: #bdac8e;
+	min-width: 840px;
+}
+
+#lowfoot {
+	color: #000;
+	font-size: 15px;
+	font-weight: 100;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+#copyright {
+	color: #000;
+	font-size: 11px;
+	font-weight: 100;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+}
+
+#footcontainer {
+	width: 840px;
+	height: 350px;
+	margin: 0px auto;
+}
+
+#footleft {
+	width: 420px;
+	height: 400px;
+}
+
+#footright {
+	width: 420px;
+	height: 260px;
+	margin-top: -400px;
+	margin-left: 420px;
+	text-align: right;
+}
+
+#quicklinks , #contactinfo {
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: 900;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.footlink {
+	width: 400px;
+	height: 40px;
+	line-height: 24px;
+}
+
+.footlink , .footlinka , .footlinka:link , .footlinka:visited {
+	font-size: 14px;
+	font-weight: 100;
+	color: #cfcfcf;
+	text-decoration: none;
+}
+
+.footlinka:hover , .footlinka:active {
+	font-size: 14px;
+	font-weight: 100;
+	color: #ffffff;
+	text-decoration: underline;
+}
